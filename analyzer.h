@@ -7,7 +7,7 @@
 #include <string_view> // stringview için
 
 // --- HOCANIN VERDİĞİ YAPILAR (STRUCTS) ---
-// bunları değiştirmedim, aynen kullanıyorum
+//  bunları değiştirmedim, aynen kullanıyorum
 struct ZoneCount {
     std::string zone;
     long long count;
@@ -55,3 +55,4 @@ public:
 };
 
 #endif
+
