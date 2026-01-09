@@ -21,9 +21,9 @@ static std::string_view trim(std::string_view str) {
     return str.substr(first, (last - first + 1));
 }
 
-// =============================================================
+// ============================================================
 // BÖLÜM 2: VERİ AYIKLAMA (PARSING) MANTIĞI
-// =============================================================
+// ============================================================
 
 int TripAnalyzer::get_hour_manual(std::string_view s) {
     // 1. UZUNLUK KONTROLÜ: Tarih formatı çok kısaysa hatalıdır diye düşündüm
@@ -213,3 +213,4 @@ std::vector<SlotCount> TripAnalyzer::topBusySlots(int n) const {
 
     return std::vector<SlotCount>(v2.begin(), v2.begin() + n);
 }
+
