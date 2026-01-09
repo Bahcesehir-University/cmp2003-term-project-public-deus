@@ -1,7 +1,7 @@
 #include "analyzer.h"
 #include <iostream>
 #include <chrono>
-
+//main e dokunmadım
 static void printZones(const std::vector<ZoneCount>& v) {
     std::cout << "TOP_ZONES\n";
     for (auto& x : v)
@@ -29,3 +29,4 @@ int main() {
     std::cout << "EXEC_MS\n" << ms << "\n";
     return 0;
 }
+
